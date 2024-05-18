@@ -88,9 +88,8 @@ To create an entry in a group, create a file with the following path: `entries/<
 Once you've done this, you need to create an entry in the file.
 
 ```typ
-#import "/packages.typ": notebookinator
-#import notebookinator: *
-#import themes.radial.components: *
+#import "/packages.typ": *
+#import components: *
 
 #show: create-body-entry.with(
   title: "<EDP Stage>: <your title here>",

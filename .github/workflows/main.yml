@@ -1,12 +1,16 @@
-name: Compile Typst Documents
+name: Build Typst document
 on: [push]
 jobs:
-  build:
+  build_typst:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - name: Compile Typst Files
-      uses: ammar-ahmed22/compile-typst-action@v1
-      with:
-        source_paths: 'main.typ'
-        output_paths: 'main.pdf'
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - uses:  Jarivanbakel/typst-action@v3
+        with:
+          input_files: main.typ
+      - name: Upload PDF file
+        uses: actions/upload-artifact@v3
+        with:
+          name: PDF
+          path: main.pdf

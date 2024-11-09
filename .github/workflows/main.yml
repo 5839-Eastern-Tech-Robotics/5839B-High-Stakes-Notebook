@@ -1,0 +1,104 @@
+name: Build Typst document
+on: [push]
+jobs:
+  build_typst:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Determine OS
+        shell: bash
+        id: determine_os
+        run: |
+          archive_extension=".tar.xz"
+          if [ "$RUNNER_OS" == 'Linux' ]; 
+          then
+               binary_type="x86_64-unknown-linux-musl"
+          elif [ "$RUNNER_OS" == 'Windows' ]; 
+          then
+               binary_type="x86_64-pc-windows-msvc"
+               archive_extension=".zip"
+          else 
+               binary_type="x86_64-apple-darwin"
+          fi
+          
+          echo "binary_type=$binary_type" >> $GITHUB_OUTPUT
+          echo "archive_extension=$archive_extension" >> $GITHUB_OUTPUT
+  
+      - name: check if binary is present
+        shell: bash
+        id: binary_exists
+        run: |
+          if [ -d "typst-${{ steps.determine_os.outputs.binary_type }}" ]; then
+              echo "exists=true" >> $GITHUB_OUTPUT
+          else
+              echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+  
+      - name: get download url for corresponding binary
+        shell: bash
+        id: download_url
+        if: steps.binary_exists.outputs.exists != 'true'
+        run: |
+          response=$(curl --request GET \
+            --url https://api.github.com/repos/typst/typst/releases/latest  )
+          echo "$response"
+          binary_download_url=$(jq '.assets[]? | select( .name | contains("${{ steps.determine_os.outputs.binary_type }}")) | .browser_download_url' <<< "${response}")
+          echo "$binary_download_url"
+          echo "binary_download_url=$binary_download_url" >> $GITHUB_OUTPUT
+  
+      - name: Download the binary
+        shell: bash
+        if: steps.binary_exists.outputs.exists != 'true'      
+        run: curl -O -L ${{ steps.download_url.outputs.binary_download_url }}
+      
+      - name: Extract the binary
+        shell: bash
+        if: steps.binary_exists.outputs.exists != 'true'
+        run: |
+          echo Running on $RUNNER_OS extracting typst-${{ steps.determine_os.outputs.binary_type }}${{ steps.determine_os.outputs.archive_extension }}
+  
+          if [ "$RUNNER_OS" == 'Windows' ]; 
+          then
+              7z x "typst-${{ steps.determine_os.outputs.binary_type }}${{ steps.determine_os.outputs.archive_extension }}"
+          else
+              tar xf "typst-${{ steps.determine_os.outputs.binary_type }}${{ steps.determine_os.outputs.archive_extension }}"
+          fi
+          
+          echo "$PWD"
+          echo "$PWD/typst-${{ steps.determine_os.outputs.binary_type }}"
+          echo "$PWD/typst-${{ steps.determine_os.outputs.binary_type }}" >> $GITHUB_PATH
+
+      - name: Install Notebookinator
+        shell: bash
+        run: |
+          git clone https://github.com/BattleCh1cken/notebookinator
+          ./notebookinator/scripts/package @local
+          rm -rf notebookinator
+          
+      - name: Compile Typst documents
+        shell: bash
+        run: |
+          working_directory=${{ inputs.working_directory }}
+          if [[ -n "$working_directory" ]]; then
+            if [[ ! -d "$working_directory" ]]; then
+              mkdir -p "$working_directory"
+            fi
+            cd "$working_directory"
+          fi
+          
+          paths="${{ inputs.input_files }}"
+          paths=${paths//$'\n'/ }
+          echo Paths $paths
+          
+          for file in ${paths[@]}; do
+            typst compile $file
+          done
+      - uses:  Jarivanbakel/typst-action@v3
+        with:
+          input_files: main.typ
+      - name: Upload PDF file
+        uses: actions/upload-artifact@v3
+        with:
+          name: PDF
+          path: main.pdf

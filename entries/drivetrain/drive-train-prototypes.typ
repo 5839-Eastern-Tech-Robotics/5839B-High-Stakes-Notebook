@@ -80,7 +80,7 @@ Before we could enter school to test this I created a Model for a Swerve Drive m
 ) <odomDiagram>
 #figure(
   rect(fill: black.lighten(10%))[
-    #image("./Swerve Drive Module Front.png", width: 50%)
+    #image("Swerve Drive Module Front.png", width: 50%)
   ],
   caption: [ Front View of the Prototype Swerve Drive Module
   ]

@@ -12,14 +12,14 @@ Before any designing can take place it is key to know the constraints one is pla
 
 #figure(
   rect(fill: black.lighten(10%))[
-    #image(".\pre-inventory top half.png", width: 80%)
+    #image("pre-inventory top half.png", width: 80%)
   ],
   caption: [ Top half of the Inventory Spread Sheet
   ]
 ) <odomDiagram>
 #figure(
   rect(fill: black.lighten(10%))[
-    #image(".\pre-inventory bot half.png", width: 80%)
+    #image("pre-inventory bot half.png", width: 80%)
   ],
   caption: [ Bottom half of the Inventory Spread Sheet
   ]
@@ -29,7 +29,7 @@ The Spreadsheet will take a while to fill out, but for now parts with known quan
 
 #figure(
   rect(fill: black.lighten(10%))[
-    #image(".\order list frame work.png", width: 80%)
+    #image("order list frame work.png", width: 80%)
   ],
   caption: [ Order Spread Sheet with a calculation test
   ]

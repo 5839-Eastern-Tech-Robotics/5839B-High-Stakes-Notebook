@@ -27,7 +27,7 @@ For the Inventor the main robot assembly is made from a variety of sub assemblie
 This system comes with a variety of advantages for the team. Indivudal axels or mechanisms be edited without opening the whole robot which allows team members to interact with the models without a powerful computer. It also allows for big changes to be made easier as the major sub-assemblies can be removed or changed without having to edit a bunch of indivudal parts. This also helps during the build process as we can divide the many sub-assemblies between any teammembers without other work to do. This has proven in the past to allow us to build full redesigns in just a week and half such as what we did after dulaney last year. 
 #figure(
   rect(fill: black.lighten(10%))[
-    #image(".\Over Under File Structure.png", width: 80%)
+    #image("Over Under File Structure.png", width: 80%)
   ],
   caption: [ Inventor Files from the Over Under Season
   ]

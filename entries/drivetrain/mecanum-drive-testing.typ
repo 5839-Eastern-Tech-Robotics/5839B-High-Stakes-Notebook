@@ -12,7 +12,7 @@ While Building the Mecanum Drive a large oversight was made. Vex wheels may be a
 
 #figure(
   rect(fill: black.lighten(10%))[
-    #image("./Wheel Comparison.png", width: 80%)
+    #image("Wheel Comparison.png", width: 80%)
   ],
   caption: [ Comparison of Mecanum Wheels and both the new (right) and old (left) omni wheel diameters
   ]

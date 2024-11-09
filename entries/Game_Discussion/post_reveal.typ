@@ -2,9 +2,9 @@
 #import components: *
 
 #show: create-body-entry.with(
-  title: "<EDP Stage>: <your title here>",
+  title: "Post-Rulebook Reveal Thoughts",
   type: "identify",
-  date: datetime(year: 1982, month: 1, day: 1),
+  date: datetime(year: 2024, month: 5, day: 14),
   author: "Praful Adiga",
   witness: "Davis Bodami",
 )

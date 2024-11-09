@@ -11,3 +11,5 @@
 #include "./sensors/new-odometry-sensors.typ"
 #include "./drivetrain/drive-train-prototypes.typ"
 #include "./drivetrain/mecanum-drive-testing.typ"
+
+#include "./GUI/auton-selector.typ"

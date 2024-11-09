@@ -89,5 +89,5 @@ Before we could enter school to test this I created a Model for a Swerve Drive m
 
 
 #admonition(type: "note")[
-  It is unlikley any of these drives will be used as tank drives have proved superior for many games in a row. They simply serve as a way to practice building and design techniques and mechanisms before the next season. However, cataloging them is still important as the ideas learned from them could proove very important. 
+  It is unlikley any of these drives will be used as tank drives have proved superior for many games in a row. They simply serve as a way to practice building and design techniques and mechanisms before the next season. However, cataloging them is still important as the ideas learned from them could prove very important. 
 ]

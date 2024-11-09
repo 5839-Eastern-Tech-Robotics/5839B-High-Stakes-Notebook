@@ -1,0 +1,12 @@
+            - name: Typst Compiler
+  # You may pin to the exact commit or the version.
+  # uses: ammar-ahmed22/compile-typst-action@7e840aaaeacb7f3f4b6724776148f65a0d4aab04
+  uses: ammar-ahmed22/compile-typst-action@v1.0.2
+  with:
+    # Space separated list of paths to the .typ files
+    source_paths: main.typ
+    # Space separated list of output paths (must be .pdf) (defaults to the same name as the source_paths)
+    output_paths: # optional
+    # Path to the fonts directory used by the Typst compiler
+    fonts_path: # optional
+          

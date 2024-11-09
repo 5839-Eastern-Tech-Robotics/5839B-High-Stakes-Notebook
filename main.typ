@@ -5,7 +5,7 @@
 #show: notebook.with(theme: radial-theme, cover: align(center + horizon)[
   #text(size: 24pt)[
     #text(size: 28pt)[
-      Engineering Notebook
+      Engineering Design Journal
       #line(length: 50%, stroke: (thickness: 2.5pt, cap: "round"))
       5839B
     ]

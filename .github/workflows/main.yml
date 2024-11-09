@@ -41,9 +41,7 @@ jobs:
         if: steps.binary_exists.outputs.exists != 'true'
         run: |
           response=$(curl --request GET \
-            --url https://api.github.com/repos/typst/typst/releases/latest \
-            --header 'authorization: Bearer ${{ inputs.token }}')
-  
+            --url https://api.github.com/repos/typst/typst/releases/latest  
           echo "$response"
           binary_download_url=$(jq '.assets[]? | select( .name | contains("${{ steps.determine_os.outputs.binary_type }}")) | .browser_download_url' <<< "${response}")
           echo "$binary_download_url"

@@ -3,3 +3,4 @@
 #import themes.radial: radial-theme, components
 
 // TODO: put more packages here
+#import "@preview/codetastic:0.2.2"

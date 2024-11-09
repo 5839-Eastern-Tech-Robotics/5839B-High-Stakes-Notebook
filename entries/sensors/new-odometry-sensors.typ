@@ -35,14 +35,14 @@ New Design:
   ) <odomDiagram>
 #figure(
     rect(fill: black.lighten(10%))[
-      #image("Horizontal Odom Isometric.png", width: 80%)
+      #image("Horizantal Odom Isometric.png", width: 80%)
     ],
     caption: [ Isometric View of the New Horizontal Odometry Sensor
     ]
   ) <odomDiagram>
 #figure(
   rect(fill: black.lighten(10%))[
-    #image("Horizontal Odom Front.png", width: 80%)
+    #image("Horizantal Odom Front.png", width: 80%)
   ],
   caption: [ Front View of the New Horizontal Odometry Sensor
   ]

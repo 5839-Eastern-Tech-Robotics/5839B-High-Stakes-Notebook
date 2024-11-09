@@ -3,7 +3,7 @@
 
 #show: create-body-entry.with(
   title: "Mecanum Drive Testing",
-  type: "test",
+  type: "build",
   date: datetime(year: 2024, month: 5, day: 7),
   author: "Davis Bodami",
   witness: "Praful Adiga"

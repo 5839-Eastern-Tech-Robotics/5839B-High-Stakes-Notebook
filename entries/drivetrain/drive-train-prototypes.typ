@@ -27,30 +27,34 @@ The first model made was that of a Mecanum Drive:
   rect(fill: black.lighten(10%))[
     #image("./Drive Proto Isometric.png", width: 80%)
   ],
-  caption: [ Isometric View of the Prototype Mecanum Drive
+  caption: [ 
+    @odomDiagramIs: Isometric View of the Prototype Mecanum Drive
   ]
-) <odomDiagram>
+) <odomDiagramIs>
 #figure(
   rect(fill: black.lighten(10%))[
     #image("./Mecanum Drive Proto Top.png", width: 80%)
   ],
-  caption: [ Top View of the Prototype Mecanum Drive
+  caption: [ 
+    @odomDiagramTop: Top View of the Prototype Mecanum Drive
   ]
-) <odomDiagram>
+) <odomDiagramTop>
 #figure(
   rect(fill: black.lighten(10%))[
     #image("./Mecanum Drive Proto Front.png", width: 80%)
   ],
-  caption: [ Front View of the Prototype Mecanum Drive
+  caption: [ 
+    @odomDiagramFront: Front View of the Prototype Mecanum Drive
   ]
-) <odomDiagram>
+) <odomDiagramFront>
 #figure(
   rect(fill: black.lighten(10%))[
     #image("./Mecanum Drive Proto Side.png", width: 80%)
   ],
-  caption: [ Side View of the Prototype Mecanum Drive
+  caption: [ 
+    @odomDiagramSide: Side View of the Prototype Mecanum Drive
   ]
-) <odomDiagram>
+) <odomDiagramSide>
 
 
 Before we could enter school to test this I created a Model for a Swerve Drive module:
@@ -68,23 +72,26 @@ Before we could enter school to test this I created a Model for a Swerve Drive m
   rect(fill: black.lighten(10%))[
     #image("./Swerve Drive Module Isometric.png", width: 50%)
   ],
-  caption: [ Isometric View of the Prototype Swerve Drive Module
+  caption: [ 
+    @odomDiagramIso: Isometric View of the Prototype Swerve Drive Module
   ]
-) <odomDiagram>
+) <odomDiagramIso>
 #figure(
   rect(fill: black.lighten(10%))[
     #image("./Swerve Drive Module Side.png", width: 50%)
   ],
-  caption: [ Side View of the Prototype Swerve Drive Module
+  caption: [ 
+    @odomDiagramSDSide: Side View of the Prototype Swerve Drive Module
   ]
-) <odomDiagram>
+) <odomDiagramSDSide>
 #figure(
   rect(fill: black.lighten(10%))[
     #image("Swerve Drive Module Front.png", width: 50%)
   ],
-  caption: [ Front View of the Prototype Swerve Drive Module
+  caption: [ 
+    @odomDiagramSDFront: Front View of the Prototype Swerve Drive Module
   ]
-) <odomDiagram>
+) <odomDiagramSDFront>
 
 
 

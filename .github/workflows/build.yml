@@ -32,7 +32,7 @@ jobs:
           just install
       - name: Compile Notebook
         run: |
-          typst compile main.typ --font-path ./assets/fonts/
+          typst compile main.typ
       - name: Upload PDF file
         uses: actions/upload-artifact@v3
         with:

@@ -30,6 +30,9 @@ jobs:
         run: |
           cd notebookinator
           just install
+      - name: verify files
+        run: |
+          find . -type f
       - name: Compile Notebook
         run: |
           typst compile main.typ

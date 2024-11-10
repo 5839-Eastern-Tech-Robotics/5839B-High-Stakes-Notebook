@@ -11,13 +11,13 @@
 #include "./sensors/new-odometry-sensors.typ"
 #include "./drivetrain/drive-train-prototypes.typ"
 #include "./drivetrain/mecanum-drive-testing.typ"
-#include "./Game_Discussion/rest-of-preseason"
+#include "./Game_Discussion/rest-of-preseason.typ"
 
-#include "./fundraising/fundraising"
-#include "./intake/inventor-prototypes"
+#include "./fundraising/fundraising.typ"
+#include "./intake/inventor-prototypes.typ"
 
-#include "./fundraising/fundraising-results"
-#include "./intake/first-intake-builds"
+#include "./fundraising/fundraising-results.typ"
+#include "./intake/first-intake-builds.typ"
 
 #include "./GUI/auton-selector.typ"
 #include "./GUI/odom-locator.typ"

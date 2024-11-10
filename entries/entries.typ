@@ -20,3 +20,4 @@
 #include "./intake/first-intake-builds"
 
 #include "./GUI/auton-selector.typ"
+#include "./GUI/odom-locator.typ"

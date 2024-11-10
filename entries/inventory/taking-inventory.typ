@@ -36,7 +36,7 @@ The Spreadsheet will take a while to fill out, but for now parts with known quan
 ) <odomDiagram>
 
 
-admonition(type: "note")[
-  Currently the budget is at zero as dues are yet to be collected and no fund raisers have been planned. It also improt to consider that a small percentage of the school's 15,000 dollar engineerign budget is randomly allocated to us so we will have that to work with. 
+#admonition(type: "note")[
+  Currently the budget is at zero as dues are yet to be collected and no fund raisers have been planned. It also important to consider that a small percentage of the school's 15,000 dollar engineering budget is randomly allocated to us so we will have that to work with. 
 ]
 

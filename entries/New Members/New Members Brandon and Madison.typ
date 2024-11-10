@@ -10,7 +10,7 @@
 )
 = New Members
 
-Two new members were recruited for the ETHS robotics club. Brandon Copeland had been working with us on and off after states and offically joined the club alongside a new face Madison lastname. Praful had gotten Madison to join whom some of the people new and Brandon Copeland had been a longtime friend of many members of the team who we had talked into joining. Since Praful already knows madison she will likley be incorperated into our team while Brandon Copeland works with team D. This is best not only from a perspective of 
+Two new members were recruited for the ETHS robotics club. Brandon Copeland had been working with us on and off after states and offically joined the club alongside a new face Madison lastname. Praful had gotten Madison to join whom some of the people new and Brandon Copeland had been a longtime friend of many members of the team who we had talked into joining. Since Praful already knows madison she will likley be incorperated into our team while Brandon Copeland works with team D. This is best not only from a perspective of familiarity, but also team D needs more mechanical knowlege which Brandon Copeland has and our team would better benefit from Madison's skills. 
 
 
 #admonition(type: "note")[

@@ -9,7 +9,7 @@
   witness: "Davis Bodami",
 )
 
-Last year, we had a working odometry system, and a working PID loop, however, our PID loop was inadequately tuned so the main advantage of using PID, better accuracy and speed, was effectively canceled out by the sub par tuning. So the purpose of the PID tuner is to create a GUI that allows us to tune the PID significantly faster than without, and have a better PID tune overall. To do this we want a GUI that lets us change the PID values without having to reupload the program, and also give us graphical feedback, ideally in the form of an error vs time graph. 
+Last year, we had a working odometry system, and a working PID loop, however, our PID loop was inadequately tuned so the main advantage of using PID, better accuracy and speed, was effectively canceled out by the sub par tuning. So the purpose of the PID tuner is to create a GUI that allows us to tune the PID significantly faster than without, and have a better PID tune overall. To do this we want a GUI that lets us change the PID values without having to reupload the program, and also give us graphical feedback, ideally in the form of an error vs time graph.
 
 After some planning we decided that out interface with the GUI would look something like this
 
@@ -40,6 +40,7 @@ This design allows a lot of flexibility in what PID's we tune as it is very abst
 
 To actually design the GUI we found that converting the design from an image to code is very time consuming so we looked for a way to automatically do this, as we figured, LVGL, a popular GUI program had to have at least one program for this purpose. So we started looking, and we found #link("https://squareline.io")[SquareLine Studio], which fit most of our requirements. So we designed the PID tuner inside SquareLine Studio, and we developed something like .
 
+// TODO: add the image
 #figure(
   "hi"
 )
@@ -88,7 +89,7 @@ The final result, with a test function (shown in @PIDTunerTestCode), is shown in
   caption: [ @PIDTunerTestCode: Our test code for the PID Tuner GUI ]
 )<PIDTunerTestCode>
 
-
+// TODO: add the image
 #figure(
   "hi"
 )

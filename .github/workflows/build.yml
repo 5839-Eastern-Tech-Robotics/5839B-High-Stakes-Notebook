@@ -29,10 +29,10 @@ jobs:
       - name: Install Notebookinator
         run: |
           cd notebookinator
-          just install
+          ./scripts/package @local
       - name: verify files
         run: |
-          find /home/runner/ -type f
+          find /home/runner/ -type f | grep "notebookinator"
       - name: Compile Notebook
         run: |
           typst compile main.typ

@@ -32,7 +32,7 @@ jobs:
           just install
       - name: verify files
         run: |
-          find . -type f
+          find /home/runner/ -type f
       - name: Compile Notebook
         run: |
           typst compile main.typ

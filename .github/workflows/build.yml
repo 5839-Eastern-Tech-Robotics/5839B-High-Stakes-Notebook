@@ -16,10 +16,6 @@ jobs:
           crate: typst-cli
           git: https://github.com/typst/typst
           branch: main
-      - name: Install just
-        uses: baptiste0928/cargo-install@v2
-        with:
-          crate: just
       - name: Clone Notebookinator
         uses: actions/checkout@v4
         with:
@@ -30,14 +26,11 @@ jobs:
         run: |
           cd notebookinator
           ./scripts/package @local
-      - name: verify files
-        run: |
-          find /home/runner/ -type f | grep "notebookinator"
       - name: Compile Notebook
         run: |
           typst compile main.typ
       - name: Upload PDF file
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4.4.3
         with:
           name: notebook
           path: main.pdf

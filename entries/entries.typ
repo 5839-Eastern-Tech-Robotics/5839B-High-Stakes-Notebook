@@ -21,3 +21,6 @@
 
 #include "./GUI/auton-selector.typ"
 #include "./GUI/odom-locator.typ"
+#include "./GUI/PID-tuner.typ"
+#include "./GUI/other-GUI.typ"
+

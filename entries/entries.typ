@@ -20,6 +20,8 @@
 #include "./intake/first-intake-builds.typ"
 
 #include "./basic-control-algos/odometry.typ"
+#include "./basic-control-algos/odometry-test.typ"
+#include "./basic-control-algos/PID.typ"
 
 #include "./GUI/auton-selector.typ"
 #include "./GUI/odom-locator.typ"

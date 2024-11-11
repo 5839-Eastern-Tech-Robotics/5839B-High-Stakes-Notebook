@@ -19,6 +19,8 @@
 #include "./fundraising/fundraising-results.typ"
 #include "./intake/first-intake-builds.typ"
 
+#include "./basic-control-algos/odometry.typ"
+
 #include "./GUI/auton-selector.typ"
 #include "./GUI/odom-locator.typ"
 #include "./GUI/PID-tuner.typ"

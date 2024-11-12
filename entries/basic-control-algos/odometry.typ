@@ -23,4 +23,3 @@ $ theta_(t+1) = theta_t + Delta theta $
 
 The equations above may seem complicated but really, all its doing is rotating the vector $Delta attach(limits(d), t: ->, br: l)$ by the average of $theta_t$ and $theta_(t+1)$ (we do the average because after some testing, we found it to be more accurate than just doing one or the other) and what this does is convert the local displacement into global displacement. We can then just add the new global displacement to the old global coordinates, and $Delta theta$ to the old theta, and that gets us the new global coordinates.
 
-

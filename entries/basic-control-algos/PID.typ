@@ -53,3 +53,16 @@ This term is most useful when it comes to correcting sharp disturbances that hap
 To bring all of the terms together, we can add them together, and this will bring their respective strengths and weaknesses to the loop, creating a versatile control algorithm. We do need to tune the PID though, and that can be complicated, especially when you don't have a graph showing error.
 
 == Tuning
+
+Tuning the constants for the PID loop can seen complicated, but if you have the right tools, its suprisingly easy. @PIDTuningFlowchart shows the procees i deveised for tuning my PID constants.
+
+#figure(
+  rect(fill: black.lighten(10%))[
+    #image("./PID-Tuning-Flowchart.png", width: 80%)
+  ],
+  caption: [ @PIDTuningFlowchart: A Flowchart for tuning PID ]
+)<PIDTuningFlowchart>
+
+Answering the questions in the flowchart becomes much easier if you have a graph of error vs time, as the characteristics in the graph are very distinctive, if you are just looking at the robot, it can be very unclear at times if the PID is properly tuned or not, which is why we decided to make a GUI that will help us tune the PID controller.
+
+

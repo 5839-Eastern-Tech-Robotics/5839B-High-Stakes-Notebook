@@ -23,6 +23,9 @@
 #include "./basic-control-algos/odometry-test.typ"
 #include "./basic-control-algos/PID.typ"
 
+#include "./advanced-control-algos/pure-pursuit.typ"
+#include "./advanced-control-algos/boomerang.typ"
+
 #include "./GUI/auton-selector.typ"
 #include "./GUI/odom-locator.typ"
 #include "./GUI/PID-tuner.typ"

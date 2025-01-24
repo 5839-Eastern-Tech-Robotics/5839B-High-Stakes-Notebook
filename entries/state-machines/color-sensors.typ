@@ -14,8 +14,10 @@ The difficult part about this ejection system is the timing of the intake. If th
 
 #figure(
     rect(fill: black.lighten(10%))[
-      #image("", width: 80%)
+      #image("colorSensor.jpg", width: 80%)
     ],
     caption: [ Top View of Color Sensor System on the Physical Robot
     ]
-  ) <odomDiagram>
+  ) <colorSensor>
+
+  The image above is the color sensor equipped onto the intake. The grey bit on the left is the actual color sensor and the red piece on the top of the image is the limit switch. 

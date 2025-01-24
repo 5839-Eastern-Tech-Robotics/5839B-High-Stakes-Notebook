@@ -49,5 +49,12 @@
        Assembles assorted parts and coordinates information with the public
        ]
     ),
+    (
+       name: "Jayden Htwe",
+       picture: image("./assets/logo.jpg", width: 90pt, height: 90pt),
+       about: [
+       Journalist and editor for the notebook and assists with building
+       ]
+    ),
   )
 ]

@@ -31,3 +31,4 @@
 #include "./GUI/PID-tuner.typ"
 #include "./GUI/other-GUI.typ"
 
+#include "./sensors/color-sensors.typ"

@@ -14,7 +14,7 @@ The difficult part about this ejection system is the timing of the intake. If th
 
 #figure(
     rect(fill: black.lighten(10%))[
-      #image("colorSensor.jpg", width: 80%)
+      #image("colorSensor.jpg", width: 55%)
     ],
     caption: [ Top View of Color Sensor System on the Physical Robot
     ]

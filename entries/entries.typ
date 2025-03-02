@@ -13,11 +13,11 @@
 #include "./drivetrain/mecanum-drive-testing.typ"
 #include "./Game_Discussion/rest-of-preseason.typ"
 
-// april4
+// april 4
 #include "./fundraising/fundraising.typ"
-#include "./intake/inventor-prototypes.typ"
 #include "./basic-control-algos/odometry.typ"
 #include "./basic-control-algos/odometry-test.typ"
+#include "./intake/inventor-prototypes.typ"
 
 // may 5
 #include "./fundraising/fundraising-results.typ"
@@ -27,7 +27,6 @@
 #include "./advanced-control-algos/boomerang.typ"
 
 // june 6
-#include "./license-plates/licenseplate.typ"
 
 // july 7
 #include "./GUI/auton-selector.typ"
@@ -47,3 +46,5 @@
 // december 12
 #include "./sensors/color-sensors.typ"
 #include "./wall-stake/wall-stake.typ"
+
+// january 1

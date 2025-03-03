@@ -27,6 +27,7 @@
 #include "./advanced-control-algos/boomerang.typ"
 
 // june 6
+#include "license-plates/First Models/licenseplate.typ"
 
 // july 7
 #include "./GUI/auton-selector.typ"

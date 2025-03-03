@@ -19,3 +19,4 @@ The boomerang control algorithm is also pretty simple, however it is very obscur
   ],
   caption: [ @BoomerangDesmosGraph: an example boomerang path with $g_("Lead")$ = 1]
 ) <BoomerangDesmosGraph>
+

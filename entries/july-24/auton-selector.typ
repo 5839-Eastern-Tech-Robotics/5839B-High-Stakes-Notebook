@@ -23,7 +23,7 @@ We started by first trying to design our own autonomous selector which didn't en
 
 So we started researching into existing auton selectors and we found a library that is extensible and perfectly fits our needs: #link("https://github.com/unwieldycat/robodash")[robodash], it already has a debug console, alert system, image display, a well made view switcher, and a autonomous selector that looks good which can be seen in @RobodashAutonSelector. 
 
-#pagebreak(weak: true) // TODO: This is bad i don't like this fix this ASAP but don't let the caption get separated from the image
+
 #figure(
   rect(fill: black.lighten(10%))[
     #image("./Robodash_Auton_Selector.png", width: 80%)

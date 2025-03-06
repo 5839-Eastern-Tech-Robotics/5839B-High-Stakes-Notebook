@@ -42,7 +42,7 @@ To actually design the GUI we found that converting the design from an image to 
 
 // TODO: add the image
 #figure(
-  "hi"
+  "TODO"
 )
 
 Unlike the previous GUI's, developing this was significantly harder than just making it look good, however SquareLine Studio has a helpful function to export the UI to code, so all we had to do was implement the logic. Switching PID's was implemented by just changing the reference to the current `PIDToTune` and the text on the GUI. And the graph updating was done by first calling the run function, and then creating a task that periodically calls the error function, resizes and updates the graph, which we'll talk about in more detail, and stops automatically when the error settles.

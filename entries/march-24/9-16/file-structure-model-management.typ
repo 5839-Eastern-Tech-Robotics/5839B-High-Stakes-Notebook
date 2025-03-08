@@ -4,7 +4,7 @@
 #show: create-body-entry.with(
   title: "File Structure/Model Management",
   type: "management",
-  date: datetime(year: 2024, month: 3, day: 10),
+  date: datetime(year: 2024, month: 3, day: 14),
   author: "Davis Bodami",
   witness: "Praful Adiga"
 )

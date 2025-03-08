@@ -2,7 +2,7 @@
 #import components: *
 
 #show: create-body-entry.with(
-  title: "Mecanum Drive Testing",
+  title: "Field Construction",
   type: "build",
   date: datetime(year: 2024, month: 5, day: 8),
   author: "Davis Bodami",

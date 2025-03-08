@@ -4,7 +4,7 @@
 #show: create-body-entry.with(
   title: "Drive Train Prototypes",
   type: "build",
-  date: datetime(year: 2024, month: 3, day: 17),
+  date: datetime(year: 2024, month: 3, day: 18),
   author: "Davis Bodami",
   witness: "Praful Adiga"
 )

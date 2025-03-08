@@ -4,7 +4,7 @@
 #show: create-body-entry.with(
   title: "Inventory Results",
   type: "management",
-  date: datetime(year: 2024, month: 3, day: 10),
+  date: datetime(year: 2024, month: 3, day: 16),
   author: "Davis Bodami",
   witness: "Praful Adiga"
 )

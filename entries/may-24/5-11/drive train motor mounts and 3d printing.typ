@@ -2,7 +2,7 @@
 #import components: *
 
 #show: create-body-entry.with(
-  title: "Mecanum Drive Testing",
+  title: "Motor Mounts and 3D Printing",
   type: "brainstorm",
   date: datetime(year: 2024, month: 5, day: 6),
   author: "Davis Bodami",

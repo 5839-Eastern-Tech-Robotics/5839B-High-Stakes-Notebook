@@ -17,8 +17,8 @@ The idea is that the plates will be 3d printed in Davis's resin printer. This wi
 
 #figure(
   rect(fill: black.lighten(10%))[
-    #image(".png", width: 80%)
+    #image("licensePlateNew.jpg", width: 80%)
   ],
-  caption: [ Lift Bar
+  caption: [ 3D Printed Magnetic License Plates
   ]
 )

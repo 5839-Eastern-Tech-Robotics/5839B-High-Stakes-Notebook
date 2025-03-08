@@ -3,7 +3,7 @@
 
 #show: create-body-entry.with(
   title: "Last meeting before Summer vacation",
-  type: "managment",
+  type: "management",
   date: datetime(year: 2024, month: 5, day: 31),
   author: "Davis Bodami",
   witness: "Praful Adiga"

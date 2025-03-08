@@ -15,4 +15,10 @@ To start the summer off fun we wanted to create a more artistic asepct of the ro
 = Creation
 The idea is that the plates will be 3d printed in Davis's resin printer. This will provide a 4k quauity to the part ensuring the logo and letter look as goods as they do in the model. We can then spray paint this part red or blue and then color the letters and logo white with a paint marker
 
-//model pics
+#figure(
+  rect(fill: black.lighten(10%))[
+    #image("licensePlateNew.jpg", width: 80%)
+  ],
+  caption: [ 3D Printed Magnetic License Plates
+  ]
+)

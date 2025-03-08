@@ -41,7 +41,7 @@
     ),
     (
        name: "Jerrick Chen",
-       picture: image("./assets/jerrick.jpg", width: 90pt, height: 120pt),
+       picture: image("./assets/jerrick.png", width: 90pt, height: 120pt),
        about: [
        Designs and constructs various components on the robot. 
        Badminton demon

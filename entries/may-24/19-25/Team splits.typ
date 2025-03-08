@@ -3,7 +3,7 @@
 
 #show: create-body-entry.with(
   title: "Member Allocation",
-  type: "Managment",
+  type: "management",
   date: datetime(year: 2024, month: 5, day: 24),
   author: "Davis Bodami",
   witness: "Praful Adiga"

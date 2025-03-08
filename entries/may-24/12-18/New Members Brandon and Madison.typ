@@ -3,7 +3,7 @@
 
 #show: create-body-entry.with(
   title: "New Members Brandon Copeland and Madison lastname",
-  type: "managment",
+  type: "management",
   date: datetime(year: 2024, month: 5, day: 12),
   author: "Davis Bodami",
   witness: "Praful Adiga"

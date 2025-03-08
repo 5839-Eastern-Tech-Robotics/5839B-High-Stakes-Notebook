@@ -49,6 +49,7 @@
 #include "./june-24/23-29/Lift GearBox .typ"
 
 #include "./july-24/Installing GearBoxes and Arms.typ"
+#include "./july-24/budget.typ"
 #include "./july-24/auton-selector.typ"
 
 #include "./august-24/odom-locator.typ"

@@ -2,7 +2,7 @@
 #import components: *
 
 #show: create-body-entry.with(
-  title: "New Members Brandon Copeland and Madison lastname",
+  title: "New Members",
   type: "management",
   date: datetime(year: 2024, month: 5, day: 12),
   author: "Davis Bodami",

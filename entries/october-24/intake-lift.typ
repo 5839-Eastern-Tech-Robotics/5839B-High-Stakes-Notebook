@@ -21,3 +21,9 @@ We began by first CADing the lift, which allowed us to plan out what we need to 
   ],
   caption: [ @IntakeLift: A CAD showing our planned intake lift ]
 )<IntakeLift>
+
+So we built this lift over the next 3 days, and began to test it. We found that it could carry the intake itself and 2 rings relativity easily, with it lifting them at full speed for at least 20 cycles without the motors overheating. So we called it a success, next was coding it. We had no upcoming competitions so we decided not to code a well made state machine, but instead a quick and dirty hack to allow Cole, the driver to control the lift well enough to score. 
+
+After we finished coding, we started to test. Firstly we had the lift at the bottom most point in order to score on the mobile goals, this worked somewhat well, and there were only a few more missed rings in the tests we ran, compared to without the lift. Next we attempted to score on the neutral wall stakes, Cole faced many difficulties in trying to align the lift to the proper height, but when it was aligned the intake only scored 1 in 3 rings which was less than ideal. The first problem could be ignored for now as the code would compensate for that using a state machine and a potentiometer sensor. However the second problem was larger as without any improvements, the neutral stakes would be effectively unusable in matches. Carrying on we tested the intake capabilities which showed no noticeable decrease in capabilities. 
+
+Given these tests, we decided to carry on and explore some of the other potential capabilities, in particular climbing.

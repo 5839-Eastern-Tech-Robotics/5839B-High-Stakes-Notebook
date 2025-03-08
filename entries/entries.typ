@@ -35,6 +35,7 @@
 #include "./may-24/12-18/Drive Completion.typ"
 
 #include "./may-24/19-25/Summer Packing.typ"
+#include "./may-24/19-25/budget.typ"
 #include "./may-24/19-25/Team splits.typ"
 
 #include "./may-24/26-1/Last Day of 2023-2024 School Year for robotics.typ"
@@ -49,13 +50,15 @@
 #include "./june-24/23-29/Lift GearBox .typ"
 
 #include "./july-24/Installing GearBoxes and Arms.typ"
-#include "./july-24/budget.typ"
 #include "./july-24/auton-selector.typ"
 
 #include "./august-24/odom-locator.typ"
 #include "./august-24/PID-tuner.typ"
 
 #include "./september-24/other-GUI.typ"
+
+#include "./october-24/intake-lift.typ"
+#include "./october-24/intake-lift-removal.typ"
 
 #include "./december-24/color-sensors.typ"
 

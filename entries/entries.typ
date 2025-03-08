@@ -1,8 +1,8 @@
 #include "./march-24/9-16/first-steps.typ"
 #include "./march-24/9-16/taking-inventory.typ"
-#include "./march-24/9-16/inventory-results.typ"
 #include "./march-24/9-16/3d-design-software.typ"
 #include "./march-24/9-16/file-structure-model-management.typ"
+#include "./march-24/9-16/inventory-results.typ"
 
 #include "./march-24/17-23/drive-train-types.typ"
 #include "./march-24/17-23/new-odometry-sensors.typ"

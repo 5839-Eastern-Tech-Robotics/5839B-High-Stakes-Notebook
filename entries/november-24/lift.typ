@@ -4,7 +4,7 @@
 #show: create-body-entry.with(
   title: "Lift Attempt",
   type: "build",
-  date: datetime(year: 2024, month: 10, day: 5),
+  date: datetime(year: 2024, month: 11, day: 5),
   author: "Jayden Htwe",
   witness: "Praful Adiga"
 )
@@ -19,8 +19,8 @@ Below is a CAD model of the elevation lift.
 
 #figure(
   rect(fill: black.lighten(10%))[
-    #image("Over Under File Structure.png", width: 80%)
+    #image("lift.png", width: 80%)
   ],
-  caption: [ Inventor Files from the Over Under Season
+  caption: [ Lift Bar
   ]
 )

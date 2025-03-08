@@ -57,7 +57,7 @@
     ),
     (
        name: "Madison Moreno",
-       picture: image("./assets/logo.jpg", width: 90pt, height: 120pt),
+       picture: image("./assets/cat.jpg", width: 90pt, height: 120pt),
        about: [
        Assembles assorted parts and coordinates information with the public. 
        Loves cats
@@ -65,7 +65,7 @@
     ),
     (
        name: "Noah DiMarzio",
-       picture: image("./assets/logo.jpg", width: 90pt, height: 120pt),
+       picture: image("./assets/logo.png", width: 90pt, height: 120pt),
        about: [
        Helps organize our materials and assists with building/making parts.
        Basketball enthusiast

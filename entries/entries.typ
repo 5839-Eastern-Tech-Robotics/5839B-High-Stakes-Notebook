@@ -60,6 +60,8 @@
 #include "./october-24/intake-lift.typ"
 #include "./october-24/intake-lift-removal.typ"
 
+#include "./november-24/lift.typ"
+
 #include "./december-24/color-sensors.typ"
 
 #include "./january-25/wall-stake.typ"
